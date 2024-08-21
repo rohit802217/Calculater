@@ -1,0 +1,27 @@
+.div{
+   width: 250px;
+   margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+ }
+ .button{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 25px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px 5px rgb(243, 237, 237);
+  
+ }
+ .button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+ }
+
